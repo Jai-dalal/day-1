@@ -1,0 +1,14 @@
+body {
+  padding: 80px;
+  background: linear-gradient(
+    to right,
+    rgba(52, 148, 230, 1),
+    rgba(236, 110, 173, 1)
+  ) !important;
+  margin: 30px;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
