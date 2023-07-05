@@ -1,15 +1,61 @@
-body {
-  padding: 80px;
-  background: linear-gradient(
-    to right,
-    rgba(52, 148, 230, 1),
-    rgba(236, 110, 173, 1)
-  ) !important;
-  margin: 30px;
-  color: #fff;
+.section_two {
+  padding: 100px 0;
+  background-color: #f5f7fa;
 }
 
-h1 {
-  color: #fff;
-  text-decoration: underline;
+.section_two .section_two_content .top_content {
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto 60px;
+}
+
+.section_two .section_two_content .bottom_content {
+  margin-top: 40px;
+}
+
+.section_two .section_two_content .middle_row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.section_two .section_two_content .middle_row .middle_child {
+  background-color: #fff;
+  padding: 50px 40px;
+  border: 1px solid #e7e7e7;
+  transition: 0.1s all linear;
+  flex-basis: 260px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.section_two .section_two_content .middle_row .middle_child:hover {
+  box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.18);
+  transition: 0.1s all linear;
+}
+
+.section_two .section_two_content .middle_row .middle_child img {
+  margin-bottom: 15px;
+  max-width: 45px;
+}
+
+.section_two .section_two_content .middle_row .middle_child h4 {
+  margin-bottom: 10px;
+}
+
+.section_two .section_two_content .bottom_content {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .section_two .section_two_content .middle_row .middle_child {
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1112px) {
+  .section_two .section_two_content .middle_row .middle_child {
+    flex-basis: 39%;
+  }
 }
